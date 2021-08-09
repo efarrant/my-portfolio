@@ -25,6 +25,7 @@ a:hover {
 }
 .navbar-brand {
     color: var(--accent-color) !important;
+    font-family: var(--fontfamily);
 }
 .nav-link {
     color: var(--secondary-color) !important;
