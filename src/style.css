@@ -11,6 +11,7 @@
 .icons {
     margin: 10px;
     font-size: 50px;
+    color: var(--accent-color);
 }
 a:hover {
    color: #4590B0 !important;
@@ -32,6 +33,14 @@ a:hover {
 }
 #navbarNavAltMarkup {
     color: var(--accent-color) !important;
+}
+.get-in-touch {
+    background: var(--primary-color-opacity);
+    color: var(--accent-color);
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px 0px;
 }
 body {
     background-size: cover;
@@ -128,14 +137,18 @@ background: var(--primary-color-opacity-less);
     font-style: italic;
     text-decoration: none;
 }
+a {
+    color: var(--accent-color);
+}
 a:hover {
     color: cyan;
 }
 a:visited {
-    color: var(--accent-color)
+    color: var(--accent-color);
 }
 i {
     padding-top: 0.3vw;
+    
 }
 .toolbar {
     display: flex;
@@ -260,6 +273,7 @@ display: flex;
         margin-top: 50px;
 }
 @media (max-width: 576px) {
+   
     .nav-link {
         font-size: 15px;
     }
@@ -310,7 +324,8 @@ display: flex;
         font-size: 16px;
     }
     i {
-        font-size: 30px;
+        font-size: 50px;
+        color: var(--accent-color);
     }
     .project-title {
         font-size: 25px;
@@ -338,5 +353,18 @@ display: flex;
         font-size: 30px;
         margin-bottom: 20px;
 
+    }
+    .icons {
+    margin: 10px;
+    font-size: 50px;
+    color: var(--accent-color);
+    
+    }
+    a {
+        color: var--(--accent-color);
+        cursor: pointer;
+    }
+    a{
+    color: var(--accent-color);
     }
 }
