@@ -79,6 +79,11 @@ h1 {
     font-size: 3vw;
     margin-top: 10vw !important;
 }
+.certificates {
+    text-align: center;
+    background: var(--primary-color-opacity);
+    padding: 30px;
+}
 .contact-header {
     color: var(--primary-color);
     font-size: 1.7vw;
