@@ -312,6 +312,7 @@ display: flex;
         font-size: 16px;
         margin-top: 60px;
     }
+    
     .my-name {
         font-size: 35px;
         font-weight: bold;
@@ -329,7 +330,7 @@ display: flex;
         font-size: 16px;
     }
     i {
-        font-size: 50px;
+        font-size: 40px;
         color: var(--accent-color);
     }
     .project-title {
