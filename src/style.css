@@ -376,4 +376,7 @@ display: flex;
     a{
     color: var(--accent-color);
     }
+    .tech-icon {
+        width:50px;
+    }
 }
